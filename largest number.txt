@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main ()
+{
+    int first_num,second_num,third_num;
+    printf("enter any three numbers:");
+    scanf("%d%d%d",&first_num,&second_num,&third_num);
+    if ((first_num >= second_num) && (first_num >= third_num))
+    {
+        printf("the largest number is first_num %d\n",first_num);
+    }
+    
+    else if ((second_num >= first_num) && (second_num >= third_num))
+    {
+        printf("the largest number is second_num %d\n",second_num);
+    }
+    
+    else if ((third_num >= first_num) && (third_num >= second_num))
+    {
+        printf("the largest number is third_num %d\n",third_num);
+    }
+    
+    else 
+     {
+        printf("Something is wrong\n");
+     }
+}
