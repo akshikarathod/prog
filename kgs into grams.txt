@@ -1,0 +1,10 @@
+// convert kgs into grams //
+#include<stdio.h>
+int main()
+{
+    int grams, kgrams;
+    printf("Enter the value (in Kgs):\n");
+    scanf("%d",&kgrams);
+    grams = 1000*kgrams;//k=1000//
+    printf ("=%d grams",grams);
+}
