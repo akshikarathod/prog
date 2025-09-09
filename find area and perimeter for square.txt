@@ -1,0 +1,12 @@
+//find the area and perimeter(for square)//
+#include<stdio.h>
+int main()
+{
+   int length,area,perimeter;
+   printf("Enter the length of the square:\n");
+   scanf("%d",&length);
+   area=length*length;  //area=length"s square//
+   printf("Area=%dm^2\n",area);
+   perimeter=4*length;  //perimeter = 4 times length//
+   printf("perimeter=%dm\n",perimeter);
+}

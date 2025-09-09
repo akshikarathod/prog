@@ -1,0 +1,12 @@
+// calculate the area and perimeter of rectangle//
+#include<stdio.h>
+int main()
+{
+    int length,breath,area,perimeter;
+    printf("Enter the value of length and breath:\n");
+    scanf("%d%d",&length,&breath);
+    area=length*breath;
+    printf("area=%dm^2\n",area);
+    perimeter=2*(length+breath);
+    printf("perimeter=%dm\n",perimeter);
+}
