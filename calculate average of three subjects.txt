@@ -1,0 +1,18 @@
+// calculate average of three subjects//
+#include<stdio.h>
+int main()
+{
+    float mark_1,mark_2,mark_3,average,a;
+    
+    printf("enter you score :\n");
+    scanf("%f%f%f",&mark_1,&mark_2,&mark_3);
+    
+    a = mark_1+mark_2+mark_3;
+    average=a/3;
+    
+    printf("your average score is = %f",average);
+}
+output
+enter you score :
+20 21 22
+your average score is = 21.000000

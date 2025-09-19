@@ -1,0 +1,17 @@
+//calculate area of triangle//
+#include<stdio.h>
+int main()
+{   float height,length,area;
+    
+    printf("enter the height and length of the triangle:\n");
+    scanf("%f%f",&height,&length);
+    
+    area=height*length/2;
+    
+    printf("area of tiangle is = %f",area);
+    
+}
+output
+enter the height and length of the triangle:
+4 8
+area of tiangle is = 16.000000

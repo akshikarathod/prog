@@ -1,0 +1,18 @@
+// Calculate net salary //
+#include<stdio.h>
+int main()
+{
+    float net_salary,gross_salary,allowance,deduction;
+    
+    printf("enter your salary:");
+    scanf("%f",&gross_salary);
+    
+    allowance=0.10*gross_salary;
+    deduction=0.03*gross_salary;
+    net_salary=gross_salary+allowance-deduction;
+    
+    printf("you net salary is : %.2f",net_salary);
+}
+output 
+enter your salary:9000
+you net salary is : 9630.00
