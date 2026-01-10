@@ -1,0 +1,5 @@
+P=int(input("enterr the value of price:"))
+R=int(input("enter the value of rate:"))
+N=int(input("enter the value of noumber of year:"))
+I=(P*N*R)/100
+print("the value of intrest is:",I)

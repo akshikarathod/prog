@@ -1,0 +1,3 @@
+dollars=int(input("enter the amount of dollars:"))
+ruppes=48*dollars
+print("the amount of ruppes are:",ruppes)

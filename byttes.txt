@@ -1,0 +1,5 @@
+bytes=int(input("enter the value of bytes:"))
+Kb=bytes/1000
+Mb=bytes/1000000
+Gb=bytes/1000000000
+print("the value of KB,MB&GB",Kb,Mb,Gb)

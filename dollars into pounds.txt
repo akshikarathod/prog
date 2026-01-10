@@ -1,0 +1,4 @@
+dollars=int(input("enter the amount of dollars:"))
+ruppes=48*dollars
+pounds=ruppes/70
+print("The amount of pound is:",pounds)

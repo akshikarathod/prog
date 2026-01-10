@@ -1,0 +1,3 @@
+kilograms=int(input("enter the value of kg :"))
+grams=1000*kilograms
+print("the value of grams is :",grams)
