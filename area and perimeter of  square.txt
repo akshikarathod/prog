@@ -1,0 +1,5 @@
+Calculate the area and perimeter of the given length's square 
+length=int(input("enter the value of length"))
+area=length*length
+perimeter=4*length
+print("the Area and Perimeter of the square is ",area,perimeter)

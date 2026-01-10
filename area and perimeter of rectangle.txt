@@ -1,0 +1,6 @@
+Calculate the area and perimeter of the given rectangle
+length=int(input("enter the value of length:"))
+breath=int(input("enter the value of breath:"))
+area=length*breath
+perimeter=2*(length+breath)
+print("the area and the perimeter of the given rectangle are:",area,perimeter)

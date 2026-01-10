@@ -1,0 +1,16 @@
+addition of two number 
+a=10
+b=5
+print("the addition of 5 and 10 is =",a+b)
+substraction of two numbers
+a=10
+b=5
+print("the substraction of 5 and 10 is =",a-b)
+multiplication of two numbers
+a=10
+b=5
+print("the multiplication of 5 and 10 is =",a*b)
+division of two numbers
+a=10
+b=5
+print("the division of 5 and 10 is =",a/b)

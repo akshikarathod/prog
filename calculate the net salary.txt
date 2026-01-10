@@ -1,0 +1,9 @@
+calculate the net salary 
+grosssalary=int(input("Enter the value of gross salary:"))
+allowances=(10/100)*grosssalary
+deduction=(3/100)*grosssalary
+netsalary=grosssalary+allowances-deduction
+print("your net salary is:",netsalary)
+out put
+Enter the value of gross salary:42000
+your net salary is:44940

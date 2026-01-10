@@ -1,0 +1,8 @@
+calculate the net sales
+grosssales=int(input("enter the value of gross sales:"))
+discount=(10/100)*grosssales
+netsales=grosssales-discount
+print("your net sales is:",netsales)
+out put
+enter the value of gross sales:70000
+your net sales is:63000
