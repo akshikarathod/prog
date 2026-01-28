@@ -1,0 +1,8 @@
+S=input("Enter any word:")
+a=S.upper()
+b=S.lower()
+c=S.swapcase()
+print(a)
+print(b)
+print(c)
+

@@ -1,0 +1,12 @@
+S=input("enter any of your fav. word:")
+print("the reverse sequence is:")
+a=S[::-1]
+print(a)
+print("the forward sequence is:")
+print(S)
+output
+enter any of your fav. word:Akshika
+the reverse sequence is:
+akihskA
+the forward sequence is:
+Akshika

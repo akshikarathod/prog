@@ -1,0 +1,13 @@
+S="PDEU college"
+print("the extraction is printed")
+print(S[0:4])
+print(S[5:])
+print(S[3:8])
+print(S[::-1])
+output
+
+the extraction is printed
+PDEU
+college
+U col
+egelloc UEDP

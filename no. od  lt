@@ -1,0 +1,23 @@
+S=input("enter any word you like(in lower case):")
+s = len(S)
+a=S.count('a')
+e=S.count('e')
+i=S.count('i')
+o=S.count('o')
+u=S.count('u')
+d=a+e+i+o+u
+print("the total number of letters")
+print(s)
+print("the total number of vowels")
+print(d)
+print("the total number of consonants")
+print(s-d)
+output
+
+enter any word you like(in lower case):akshika
+the total number of letters
+7
+the total number of vowels
+3
+the total number of consonants
+4

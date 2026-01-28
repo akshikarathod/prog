@@ -1,0 +1,18 @@
+S=input("enter any word with odd numbers of letters:")
+ A=len(S)
+if(A%2!=0):
+     a=S[0]
+     b=S[A//2]
+     c=S[A-1]
+     print(a)
+     print(b)
+     print(c)
+
+else:
+    print("your word don't have odd number of letters")
+output
+
+enter any word with odd numbers of letters:akshika
+a
+h
+a
